@@ -8,7 +8,7 @@ import '../App.css';
 const NavbarComponent = () => {
   return (
     <>
-      <Navbar bg="light" variant="black" expand="lg" className="navbar-custom">
+      <Navbar bg="light" variant="black" expand="lg" className="navbar-custom sticky-top">
         <Container>
           <Navbar.Brand as={Link} to="/" className="companyname">
             <img
@@ -18,7 +18,6 @@ const NavbarComponent = () => {
               className="d-inline-block align-top"
               alt="Company Logo"
             />
-         
             Kanini <b>Workspace</b>
           </Navbar.Brand>
           
@@ -41,7 +40,6 @@ const NavbarComponent = () => {
                 <Image src="Profile.png" roundedCircle width="30" height="30" />
                 {' '}
                 Sriram Muralidharan
-                
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
