@@ -1,0 +1,406 @@
+.navbar-custom {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-custom .companyname {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .companyname img {
+    margin-right: 5px;
+  }
+  
+  .navbar-custom .nav-middle {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-custom .nav-item-custom {
+    margin-right: 20px;
+  }
+  
+  .navbar-custom .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .nav-right .nav-item-custom {
+    margin-left: 20px;
+  }
+  
+  .navbar-custom .nav-item-custom:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #050505;
+  }
+  
+  .footer-custom {
+    background-color: #e8e8e8;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .home-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .banner-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .welcome-card {
+    position: absolute;
+    width: 90%;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255); 
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    z-index: 1000; /* Ensure welcome card is on top */
+  }
+  
+  .welcome-card p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .location-dropdown {
+    width: 30%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    appearance: none;
+    text-align: left;
+    font-weight: 500;
+    color: #000000;
+    z-index: 1001; /* Ensure dropdown is on top */
+  }
+  
+  .location-dropdown:focus {
+    outline: none;
+  }
+  
+  .upcoming-card, .events-card, .events-card1 {
+    position: relative;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 60px; /* Add spacing to prevent overlap */
+  }
+  
+  .upcoming-card {
+    margin-bottom: 20px;
+  }
+  
+  .events-card1 {
+    margin-top: 20px;
+  }
+  
+  .tick-image {
+    width: 45px;
+    margin-right: 10px;
+  }
+  
+  .upcoming-card h2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .upcoming-card p, .events-card p, .events-card1 p {
+    margin: 10px 0;
+  }
+  
+  .upcoming-card a, .events-card a, .events-card1 a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .events-card h3, .events-card1 h3 {
+    margin-top: 0;
+  }
+  
+  /* Updated Styles for Meeting Rooms Section */
+  .meeting-rooms-section {
+    margin-top: 20px;
+  }
+  
+  .meeting-rooms-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .meeting-rooms-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  }
+  
+  .meeting-rooms-cards::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+  
+  .meeting-room-card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 200px; /* Set a fixed width for the cards */
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .meeting-room-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px 9px 0 0;
+  }
+  
+  .meeting-room-card p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+
+  .footer-custom {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dcdcdc;
+  }
+  
+  .footer-custom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-left {
+    text-align: left;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  .bookroom-container {
+    margin-top: 20px;
+  }
+  
+  .light-text {
+    color: grey;
+  }
+  
+  .bookroom-container .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .search-button {
+    width: 100%;
+  }
+  
+  .bookroom-container .form-label {
+    font-weight: bold;
+  }
+  
+  
+  
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .align-items-end {
+    align-items: flex-end !important;
+  }
+  
+  .card {
+    text-align: center;
+  }
+  
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  
+
+  .bookdesk-container {
+    margin-top: 20px;
+  }
+  
+  .light-text {
+    color: #6c757d;
+  }
+  
+  .add-colleagues-text {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .add-colleagues-text i {
+    margin-right: 5px;
+  }
+  
+  .book-desk-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    display: block;
+  }
+  
+  .book-desk-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bookdesk-container .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .image-card {
+    width: 570px;
+    height: 800px;
+    top: 15px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 1; /* Set to 1 to make it visible */
+  }
+  
+
+  .custom-carousel-control {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-carousel-control::before {
+  font-size: 20px;
+  color: white;
+}
+
+/* Updated Styles for Meeting Rooms Section */
+.meeting-rooms-section {
+    margin-top: 20px;
+  }
+  
+  .meeting-rooms-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .meeting-rooms-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+  }
+  
+  .meeting-rooms-cards::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit browsers */
+  }
+  
+  .meeting-room-card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 350px; /* Set a fixed width for the cards */
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Push the icons to the bottom */
+  }
+  
+  .meeting-room-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px 9px 0 0;
+  }
+  
+  
+  
+  /* Styles for icons at the bottom of the card */
+  .icon-images {
+    display: flex;
+    justify-content: start; /* Center the icons horizontally */
+    align-items: center; /* Vertically center the icons */
+    margin-top: 10px; /* Margin between the content and icons */
+    padding: 10px 0; /* Add padding around the icons */
+   
+  }
+  
+  .icon-images .small-icon {
+    width: 50px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add horizontal margin between icons */
+  }
+
+  .icon-images .small-icon3 {
+    width:35%;
+  }
+  .heading{
+    position:relative;
+    right:90px;
+  }
